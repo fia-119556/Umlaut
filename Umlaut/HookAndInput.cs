@@ -119,7 +119,7 @@ namespace Umlaut
 
             if (v == Keys.LShiftKey || v == Keys.RShiftKey)
             {
-                if ((int)wParam == 256)//押下時 257キーアップ時
+                if ((int)wParam == 256)//押下時 256キーアップ時
                 {
                     shift = true;
                 }
